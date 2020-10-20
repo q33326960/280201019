@@ -1,13 +1,12 @@
 from colorama import Fore
 def isPrime(number):
     bolen = number - 1
+    if bolen <= 0:
+        print("Please enter a valid integer")
+        repeat()
     while bolen >= 1:
         kalan = number % bolen
-        if number < 2:
-            print("Please enter a valid integer")
-            break
-            repeat()
-        elif number == 2:
+        if number == 2:
             print("Duhhh don't you already know 2 is a prime number?")
             repeat()
             break
