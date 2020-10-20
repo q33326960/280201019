@@ -15,7 +15,12 @@ greet("tr")
 greet("jp")
 greet("es")
 
-# def greet(dil):
-#    if dil == "tr"
-#        return "Hello"
-# print(greet(tr))
+def greet2(dil):
+    if dil == "tr":
+       return "SEA"
+print(greet2("tr"))
+
+def hipotenus(a,b):
+    c = (a**2 + b**2)**0.5
+    return c
+print(hipotenus(3,4))
