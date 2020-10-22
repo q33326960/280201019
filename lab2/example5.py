@@ -4,3 +4,4 @@ z = (x**2 + y **2)**0.5
 print(z)
 
 # Altug Yigit
+# Commit 2
