@@ -1,5 +1,5 @@
-gpa = float(input("gpa"))
-lec = int(input("lec"))
+gpa = float(input("gpa "))
+lec = int(input("lec "))
 
 if gpa >= 2.0 :
     if lec >= 47:
@@ -9,7 +9,7 @@ else:
 
 if gpa < 2:
     if lec >= 47:
-        print("not enogh gpa")
+        print("not enough gpa")
     if lec < 47:
         print("not enough gpa or lectures")
 
