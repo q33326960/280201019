@@ -11,3 +11,5 @@ if num2 > num3:
 if num3 > num2:
     if num3 > num1:
         print(num3)
+else:
+    print("Please enter diffrent numbers")
