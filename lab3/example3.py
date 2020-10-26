@@ -8,4 +8,9 @@ else:
     print("not enough lectures")
 
 if gpa < 2:
-    print("not enogh gpa")
+    if lec >= 47:
+        print("not enogh gpa")
+else:
+    print("not enough gpa or lectures")
+
+
