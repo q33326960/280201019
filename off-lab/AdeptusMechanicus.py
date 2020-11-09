@@ -1,6 +1,6 @@
 from colorama import Fore, Back, Style
 # Testing colorama
-print(Fore.MAGENTA + "From the moment I understood the weakness of my flesh," + Fore.RESET + Fore.RED + Back.LIGHTWHITE_EX + "It disgusted me." + Back.RESET + Fore.RESET)
+print(Fore.MAGENTA + "From the moment I understood the weakness of my flesh," + Fore.RESET + Fore.RED + " It disgusted me." + Fore.RESET)
 print(Fore.GREEN + "I craved the strength and certainty of steel." + Fore.RESET)
 print(Fore.LIGHTCYAN_EX + "I aspired to the purity of the Blessed Machine." + Fore.RESET)
 print(Fore.LIGHTRED_EX + "Your kind cling to your flesh, as if it will not decay and fail you.")
