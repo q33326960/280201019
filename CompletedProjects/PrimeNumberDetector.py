@@ -7,7 +7,7 @@ def isPrime(number):
     while bolen >= 1:
         kalan = number % bolen
         if number == 2:
-            print("Duhhh don't you already know 2 is a prime number?")
+            print("Bruh moment: Don't you already know 2 is a prime number?")
             repeat()
             break
         if bolen > 1:
