@@ -8,3 +8,9 @@ else:
     print(a)
     print(b)
     print(y)
+# Alternatively
+y = input("Enter the integer: ")
+a = int(y[-1])
+b = int(y[-2])
+z = a+b
+print(z)
