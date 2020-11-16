@@ -1,5 +1,5 @@
-x = input("num1")
-y = input("num2")
+x = input("num1: ")
+y = input("num2: ")
 common = list()
 for i in x:
     for _ in y:
