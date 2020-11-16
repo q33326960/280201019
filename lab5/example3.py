@@ -4,7 +4,7 @@ common = list()
 for i in x:
     for _ in y:
         if i in y:
-            if i not in common:
-                common.append(i)
+            if int(i) not in common:
+                common.append(int(i))
 print(common)
             
