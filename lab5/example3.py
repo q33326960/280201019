@@ -6,5 +6,6 @@ for i in x:
         if i in y:
             if int(i) not in common:
                 common.append(int(i))
-print(common)
-            
+print("Common integers", common)
+
+
