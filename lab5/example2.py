@@ -1,4 +1,4 @@
-x = input("enter the numbers with a space between them") 
+x = input("enter the numbers with a space between them: ") 
 numbers = x.split()
 print(numbers)
 even = 0
