@@ -8,3 +8,5 @@ for i in books:
             charl.append(char)       
     book_dict[i] = (len(i),len(charl))
 print(book_dict)
+
+# uniquestr = len(list(set(i)))
