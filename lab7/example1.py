@@ -3,3 +3,5 @@ inp1d = dict(inp1)
 for i in inp1d:
     if inp1d.get(i) > 18:
         print("Legal",i)
+    else:
+        print("JAIL",i)
