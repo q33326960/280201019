@@ -1,7 +1,7 @@
 import time
 def countdown(t):
     if t ==0:
-        print("BUM")
+        print("B U M")
         return
     else:
         print(f"{t} seconds remaining")
