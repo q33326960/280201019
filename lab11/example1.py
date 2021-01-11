@@ -12,6 +12,9 @@ class silindir:
         return 6.28 * self.radius * self.height
     def area(self):
         return 2*silindir.base(self) + silindir.surface(self)
+    def vol(self):
+        return silindir.base(self)* self.height
         
 s1 = silindir(3,5)
 print(s1.area())
+print(s1.vol())
