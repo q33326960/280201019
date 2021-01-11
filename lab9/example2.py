@@ -5,3 +5,4 @@ def rev(list):
     else:
         return [list.pop()] + rev(list)
 print(rev(list))
+print(list)
