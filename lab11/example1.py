@@ -18,3 +18,5 @@ class silindir:
 s1 = silindir(3,5)
 print(s1.area())
 print(s1.vol())
+s1.set_radius(8)
+print(s1.area())
