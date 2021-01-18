@@ -1,7 +1,7 @@
 def selectionSort(list):
-    minx = None
     count = 0
     for x in range(len(list)):
+        minx = None
         for i in list[count:]:
             if  minx == None or i < minx:
                 minx = i
