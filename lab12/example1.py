@@ -5,7 +5,6 @@ def selectionSort(list):
         for i in list[count:]:
             if  minx == None or i < minx:
                 minx = i
-        print(minx)
         cindex = list.index(minx)
         temp = list[count]
         list[count] = minx
